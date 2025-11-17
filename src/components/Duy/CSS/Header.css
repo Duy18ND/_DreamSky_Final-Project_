@@ -15,7 +15,8 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 240px;
+  height: 100%;
+  max-height: 240px;
   z-index: 11;
   opacity: 0;
   animation: fadeInUpItem 0.8s ease-out 0.8s forwards;
@@ -32,8 +33,10 @@
 
 .Header_Title1 {
   position: absolute;
-  top: 22%;
+  top: 19%;
   left: 50%;
+  width: 100%;
+  max-width: 300px;
   z-index: 11;
   background: linear-gradient(90deg, #f4c76d 0%, #f4d98a 50%, #f4c76d 100%);
   color: #2d6b4e;
@@ -50,11 +53,11 @@
 .Header_Title2 {
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 42%;
   transform: translate(-50%, -50%);
-  width: 700px;
+  width: 100%;
+  max-width: 650px;
   z-index: 11;
-  color: #ffcd64;
   opacity: 0;
   /* Chỉ xuất hiện 1 lần */
   animation: scaleInCenter 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s forwards;
@@ -63,9 +66,10 @@
 .Header_Title3 {
   position: absolute;
   left: 50%;
-  top: 72%;
+  top: 70%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   z-index: 11;
   font-size: 20px;
   color: #ffcd64;
