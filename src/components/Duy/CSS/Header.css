@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  max-height: 240px;
+  max-height: 180px;
   z-index: 11;
   opacity: 0;
   animation: fadeInUpItem 0.8s ease-out 0.8s forwards;
@@ -27,13 +27,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 150px;
+  height: 110px;
   z-index: 11;
 }
 
 .Header_Title1 {
   position: absolute;
-  top: 19%;
+  top: 20%;
   left: 50%;
   z-index: 11;
   background: linear-gradient(90deg, #f4c76d 0%, #f4d98a 50%, #f4c76d 100%);
@@ -51,7 +51,7 @@
 .Header_Title2 {
   position: absolute;
   left: 50%;
-  top: 42%;
+  top: 39%;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 500px;
@@ -64,12 +64,12 @@
 .Header_Title3 {
   position: absolute;
   left: 50%;
-  top: 67%;
+  top: 68%;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 500px;
   z-index: 11;
-  font-size: 20px;
+  font-size: 18px;
   color: #ffcd64;
   font-weight: bold;
   text-align: center;
