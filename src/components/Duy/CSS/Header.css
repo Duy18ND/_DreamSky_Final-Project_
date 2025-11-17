@@ -33,7 +33,7 @@
 
 .Header_Title1 {
   position: absolute;
-  top: 20%;
+  top: 17%;
   left: 50%;
   z-index: 11;
   background: linear-gradient(90deg, #f4c76d 0%, #f4d98a 50%, #f4c76d 100%);
