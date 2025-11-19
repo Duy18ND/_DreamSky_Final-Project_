@@ -10,7 +10,8 @@ export default function Aside() {
                 <div className="aside-video-wrapper">
                     <iframe
                         className="aside-youtube"
-                        src="https://www.youtube.com/embed/bvcsGYIEe-c"
+                        src="https://www.youtube.com/embed/g4lrEGpqCpc"
+
                         title="YouTube video"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen

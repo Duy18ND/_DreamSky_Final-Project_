@@ -13,7 +13,7 @@ export default function Header({ onClickHeader }: { onClickHeader: () => void })
       <div className='Header_Title1'>Chào Mừng Ngày</div>
       <img src={title} alt="Title2" className='Header_Title2' />
       <div className='Header_Title3'>
-        Nhân ngày Nhà giáo Việt Nam 20/11, xin kính chúc thầy cô luôn mạnh khỏe, hạnh phúc và thành công trong sự nghiệp trồng người.
+       Chủ đề: Những hy sinh thầm lặng của thầy cô giáo vùng cao
       </div>
     </div>
   );  
